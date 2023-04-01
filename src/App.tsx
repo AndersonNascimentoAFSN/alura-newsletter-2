@@ -1,5 +1,5 @@
 import { Header } from "./components/Header/Header";
-import { ArticleList } from "./ArticleList/ArticleList";
+import { ArticleList } from "./components/ArticleList/ArticleList";
 
 export function App() {
   return (
