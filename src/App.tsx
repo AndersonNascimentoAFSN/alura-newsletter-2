@@ -1,8 +1,10 @@
+import { Header } from "./Header/Header";
+
 export function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <main>
+      <Header />
+    </main>
   )
 }
 
