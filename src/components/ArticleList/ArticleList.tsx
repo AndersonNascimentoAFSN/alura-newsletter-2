@@ -10,6 +10,7 @@ export function ArticleList() {
           { title, tags, text, alt, image }
         ) =>
           <Article
+            key={title}
             alt={alt}
             image={image}
             tags={tags}
