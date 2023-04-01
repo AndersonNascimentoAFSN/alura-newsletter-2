@@ -16,11 +16,11 @@ export function Form({ onSubmit }: FormProps) {
   }
 
   return (
-    <form onSubmit={safeSubmit}>
+    <form onSubmit={safeSubmit} className=" h-full -mt-20 gap-10 flex flex-col items-center justify-center">
       <input type="text" placeholder="Insira seu nome..." name="name" onChange={(event) => setName(event.target.value)} value={name} />
       <input type="email" placeholder="Insira seu email..." name="email" onChange={(event) => setEmail(event.target.value)} value={email} />
 
-      <button type="submit">Seguir</button>
+      <button type="submit" className="py-1 px-5 bg-alura-100 dark:bg-dark-200 rounded-full text-gray-200 uppercase">Seguir</button>
     </form>
   )
 }

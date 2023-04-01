@@ -17,7 +17,7 @@ export function App() {
   }
 
   return (
-    <main>
+    <main className="h-screen">
       <Header name={user?.name}/>
       
       {hasUser && <ArticleList />}
