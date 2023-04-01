@@ -1,8 +1,8 @@
-import { Header } from "./Header/Header";
+import { Header } from "./components/Header/Header";
 
 export function App() {
   return (
-    <main>
+    <main className="text-tx">
       <Header />
     </main>
   )
