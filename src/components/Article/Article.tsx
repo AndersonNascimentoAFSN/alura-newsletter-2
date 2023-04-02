@@ -8,7 +8,7 @@ type ArticleProps = {
 
 export function Article({ title, text, tags, image, alt }: ArticleProps) {
   return (
-    <div className="p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg gap-2 flex-col items-center">
+    <div className="alura-card">
       <h3 className="text-xl text-alura-200 dark:text-gray-200 font-bold">{title}</h3>
 
       <div className="w-full justify-end gap-2 pr-5 hidden sm:flex">
